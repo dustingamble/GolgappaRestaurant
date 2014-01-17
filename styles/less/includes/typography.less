@@ -1,0 +1,51 @@
+@import: 'brand.less';
+
+
+a{
+  margin:0;
+  padding:0;
+  color: @yellow;
+        text-decoration: none;
+}
+/*a:link {
+        color: @yellow;
+        text-decoration: none;
+}*/
+a:hover {
+        color: darken(@yellow, 30%);
+        text-decoration: none;
+      /*  color:@brown;*/
+}
+a:visited {
+        text-decoration: none;        
+}
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+h1, h2, h3, h4 {
+  font-family: @headingsfont;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.3em;
+}
+
+h2 {
+  font-size: 1.8em;
+  padding:40px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
